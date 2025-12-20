@@ -1,2 +1,2 @@
-# modern_calculator
-JavaScript Modern Calculator.
+# glassmorphism-calculator
+A modern calculator UI with frosted glass effects and smooth interactions.
