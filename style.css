@@ -3,7 +3,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  background: linear-gradient(135deg, #141e30, #243b55);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -11,7 +11,8 @@ body {
 }
 .calculator {
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(30px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 20px;
   padding: 20px;
   width: 300px;
@@ -49,9 +50,10 @@ button:hover {
   background: rgba(255, 255, 255, 0.4);
 }
 .equal {
-  grid-column: span 2;
-  background: #4caf50;
+  grid-column: span 3;
+  background: rgba(255, 255, 255, 0.2);
 }
 .clear {
-  background: #f44336;
+  background: rgba(255, 255, 255, 0.2);
 }
+
